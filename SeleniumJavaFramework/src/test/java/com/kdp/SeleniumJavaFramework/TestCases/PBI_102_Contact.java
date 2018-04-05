@@ -23,6 +23,7 @@ public class PBI_102_Contact {
 			IOException, InvalidFormatException {
 		
 		System.out.println("Write your Test Code here");
+		System.out.println("Write your Test Code here");
 
 	}
 	
