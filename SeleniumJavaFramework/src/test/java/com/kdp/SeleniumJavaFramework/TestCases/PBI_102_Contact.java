@@ -24,6 +24,10 @@ public class PBI_102_Contact {
 	@Test(enabled = true, groups = { "smoke" })
 	public void testValidationOnContactForm() throws InterruptedException {
 		
+
+		System.out.println("changes made on 10 April 18");
+
+
 		Selenium.driver.findElement(ContactPage.contactLink).click();
 		Selenium.driver.findElement(ContactPage.send).click();
 		String expectedValidation= "Validation errors occurred. Please confirm the fields and submit it again.";
@@ -48,6 +52,7 @@ public class PBI_102_Contact {
 		Assert.assertEquals(actualvalidation, expectedValidation);
 		
 		//my sprint 2 work
+
 	}
 	
 	@AfterMethod (alwaysRun= true)
