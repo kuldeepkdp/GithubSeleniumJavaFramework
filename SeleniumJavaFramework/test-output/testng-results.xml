@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12070" started-at="2018-04-05T12:15:20Z" finished-at="2018-04-05T12:15:32Z">
+  <suite name="Default suite" duration-ms="20168" started-at="2018-04-05T12:44:49Z" finished-at="2018-04-05T12:45:09Z">
     <groups>
       <group name="smoke">
         <method signature="PBI_102_Contact.testValidationOnContactForm()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="testValidationOnContactForm" class="com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="12070" started-at="2018-04-05T12:15:20Z" finished-at="2018-04-05T12:15:32Z">
+    <test name="Default test" duration-ms="20168" started-at="2018-04-05T12:44:49Z" finished-at="2018-04-05T12:45:09Z">
       <class name="com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="before" is-config="true" duration-ms="10772" started-at="2018-04-05T17:45:20Z" finished-at="2018-04-05T17:45:31Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="before" is-config="true" duration-ms="19152" started-at="2018-04-05T18:14:49Z" finished-at="2018-04-05T18:15:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testValidationOnContactForm()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="testValidationOnContactForm" duration-ms="9" started-at="2018-04-05T17:45:31Z" finished-at="2018-04-05T17:45:31Z">
+        <test-method status="PASS" signature="testValidationOnContactForm()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="testValidationOnContactForm" duration-ms="14" started-at="2018-04-05T18:15:08Z" finished-at="2018-04-05T18:15:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidationOnContactForm -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="after" is-config="true" duration-ms="1271" started-at="2018-04-05T17:45:31Z" finished-at="2018-04-05T17:45:32Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact@523884b2]" name="after" is-config="true" duration-ms="985" started-at="2018-04-05T18:15:08Z" finished-at="2018-04-05T18:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
