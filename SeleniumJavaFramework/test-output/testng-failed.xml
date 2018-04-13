@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]">
@@ -12,3 +13,20 @@
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact">
+        <methods>
+          <include name="testValidationOnContactForm"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.kdp.SeleniumJavaFramework.TestCases.PBI_102_Contact -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> refs/heads/master
