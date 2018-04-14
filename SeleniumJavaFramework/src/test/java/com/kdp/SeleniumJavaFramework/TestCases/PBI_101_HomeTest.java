@@ -3,6 +3,7 @@ package com.kdp.SeleniumJavaFramework.TestCases;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -11,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.kdp.SeleniumJavaFramework.BaseFunction.Selenium;
+import com.kdp.SeleniumJavaFramework.Pages.ContactPage;
 import com.kdp.SeleniumJavaFramework.Pages.HomePage;
 
 public class PBI_101_HomeTest {
@@ -44,16 +46,18 @@ public class PBI_101_HomeTest {
 
 	}
 
-	@Test(enabled = false, groups = { "smoke" })
-	public void testPoliciesLinkOnHomePage() throws InterruptedException,
+	@Test(enabled = true, groups = { "smoke" })
+	public void testValidationOnHome_1() throws InterruptedException,
 			IOException, InvalidFormatException {
+		Selenium.driver.findElement(By.xpath("//a[@title='Home']")).click();
+		
 
-		Selenium.doLogin(Selenium.GetData("userName"),
+		/*Selenium.doLogin(Selenium.GetData("userName"),
 				Selenium.GetData("password"));
 
 		String actualPoliciesLink = Selenium.driver.findElement(
 				HomePage.policiesLink).getText();
-		Assert.assertEquals(actualPoliciesLink, "Policieskk");
+		Assert.assertEquals(actualPoliciesLink, "Policieskk");*/
 
 	}
 
