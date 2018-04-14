@@ -1,34 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="29029" started-at="2018-04-13T17:04:39Z" finished-at="2018-04-13T17:05:08Z">
-    <groups>
-      <group name="smoke">
-        <method signature="PBI_103_AutoComplete.testValidationOnHome()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete@4c70fda8]" name="testValidationOnHome" class="com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete"/>
-      </group> <!-- smoke -->
-    </groups>
-    <test name="Default test" duration-ms="29029" started-at="2018-04-13T17:04:39Z" finished-at="2018-04-13T17:05:08Z">
-      <class name="com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete@4c70fda8]" name="before" is-config="true" duration-ms="20813" started-at="2018-04-13T22:34:39Z" finished-at="2018-04-13T22:35:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testValidationOnHome()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete@4c70fda8]" name="testValidationOnHome" duration-ms="7552" started-at="2018-04-13T22:35:00Z" finished-at="2018-04-13T22:35:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidationOnHome -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete@4c70fda8]" name="after" is-config="true" duration-ms="636" started-at="2018-04-13T22:35:08Z" finished-at="2018-04-13T22:35:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.kdp.SeleniumJavaFramework.TestCases.PBI_103_AutoComplete -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-</testng-results>
-=======
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
@@ -57,7 +27,7 @@
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
-=======
+
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
@@ -99,5 +69,4 @@
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
->>>>>>> refs/heads/master
->>>>>>> refs/heads/master
+

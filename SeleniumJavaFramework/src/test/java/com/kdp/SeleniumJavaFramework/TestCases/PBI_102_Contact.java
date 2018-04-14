@@ -47,7 +47,7 @@ public class PBI_102_Contact {
 		String actualvalidation= Selenium.driver.findElement(By.xpath("//*[@id='wpcf7-f375-p28-o1']/form/div[2]")).getText();
 		Assert.assertEquals(actualvalidation, expectedValidation);
 		
-		//my sprint 2 work
+
 	}
 	
 	@AfterMethod (alwaysRun= true)
