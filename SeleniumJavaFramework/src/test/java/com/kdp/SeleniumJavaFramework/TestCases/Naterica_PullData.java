@@ -8,6 +8,8 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -17,6 +19,7 @@ import org.testng.annotations.Test;
 
 import com.kdp.SeleniumJavaFramework.BaseFunction.Selenium;
 import com.kdp.SeleniumJavaFramework.Pages.HomePage;
+import com.kdp.SeleniumJavaFramework.Pages.NatericaPage;
 
 public class Naterica_PullData {
 	
@@ -60,17 +63,20 @@ public class Naterica_PullData {
 	@Test(groups = { "smoke" })
 	public void testServiceLinkOnHomePage() throws InterruptedException,
 			IOException, InvalidFormatException {
+	
+   		    WebDriverWait wait = new WebDriverWait(Selenium.driver, 45);
+			
+
 		  
 		  for(int number=6770 ; number<7999; number++){
 		  Thread.sleep(1000);
 		  Selenium.driver.switchTo().frame(Selenium.driver.findElement(By.id("Clayton County")));
 		  Selenium.driver.findElement(By.xpath("(//a[contains(text(),'Case Search')])[1]")).click();
-		  Thread.sleep(1000);
-		  Selenium.driver.findElement(By.xpath("//*[@id='ctt']")).sendKeys("Magistrate Court");
+		  wait.until(ExpectedConditions.elementToBeClickable(NatericaPage.courtDropbox));
+		  Thread.sleep(2000);
+		  Selenium.driver.findElement(NatericaPage.courtDropbox).sendKeys("Magistrate Court");
 		  Selenium.driver.findElement(By.xpath("//*[@id='inqcase1']/table/tbody/tr[2]/td[2]/input[1]")).sendKeys("2018");
 		  Selenium.driver.findElement(By.xpath("//*[@id='inqcase1']/table/tbody/tr[2]/td[2]/input[2]")).sendKeys("CM");
-		  
-		  
 		  
 		  //String x=String.valueOf(number);
 		  Thread.sleep(1000);
