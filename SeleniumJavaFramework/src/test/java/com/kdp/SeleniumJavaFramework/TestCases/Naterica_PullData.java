@@ -24,7 +24,7 @@ import com.kdp.SeleniumJavaFramework.Pages.NatericaPage;
 public class Naterica_PullData {
 	
 
-	//This test script is to pull data for Natrica work
+	//This test script is to pull data for Natrica work 1
 	@BeforeMethod(alwaysRun = true)
 	public void before() throws IOException, InterruptedException {
 			String browser = Selenium.GetData("browser");
